@@ -1,0 +1,124 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Etch a Sketch code */
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.container {
+  margin: 5rem auto;
+  max-width: 700px;
+}
+
+
+/* TEXT */
+h1 {
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+/* BUTTONS */
+
+button {
+  border-style: none;
+  padding: 1rem 4.8rem;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+
+#apply-btn {
+  padding:0.5rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.active {
+  background-color: #faa499;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 154, 0, 1) 10%,
+    rgba(208, 222, 33, 1) 20%,
+    rgba(79, 220, 74, 1) 30%,
+    rgba(63, 218, 216, 1) 40%,
+    rgba(47, 201, 226, 1) 50%,
+    rgba(28, 127, 238, 1) 60%,
+    rgba(95, 21, 242, 1) 70%,
+    rgba(186, 12, 248, 1) 80%,
+    rgba(251, 7, 217, 1) 90%,
+    rgba(255, 0, 0, 1) 100%);
+  color: rgb(255, 255, 255);
+}
+
+/* GRIDS */
+
+.grid {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border: 2px solid black;
+  }
+
+  .grid-element {
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
+  }
